@@ -1,0 +1,65 @@
+:root {
+  --primary-color: rgb(28, 187, 255);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 8px 16px 8px 0px;
+  color: black;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width 0.5s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  margin-left: 8px;
+}
+
+nav {
+  background-color: white;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.primary-color {
+  color: var(--primary-color) !important;
+}
+
+.primary-color.glow {
+  filter: drop-shadow(0 0 10px var(--primary-color));
+}
