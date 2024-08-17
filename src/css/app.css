@@ -10,6 +10,7 @@
   padding: 0 !important;
   margin: 8px 16px 8px 0px;
   color: black;
+  font-weight: normal !important;
 }
 
 .nav-link.active {
@@ -36,9 +37,14 @@
   color: var(--primary-color) !important;
 }
 
+nav {
+  background-color: white;
+  border-bottom: 2px solid var(--primary-color);
+}
+
 .logo {
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--primary-color);
   text-decoration: none;
   transform: scale(1);
@@ -51,15 +57,61 @@
   margin-left: 8px;
 }
 
-nav {
-  background-color: white;
-  border-bottom: 2px solid var(--primary-color);
-}
-
 .primary-color {
   color: var(--primary-color) !important;
 }
 
 .primary-color.glow {
   filter: drop-shadow(0 0 10px var(--primary-color));
+}
+
+.social-icon {
+  transform: scale(1);
+  transition: transform 0.25s;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.25s;
+}
+
+.email-container span {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  transition: width 0.5s ease, visibility 0.2s ease;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin-left: -1px;
+  padding: 0 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.email-container:hover span {
+  visibility: visible;
+  width: 100%;
+  transition: width 0.5s ease;
+}
+
+.email-container .social-icon.email {
+  transform: scale(1);
+  transition: 1s;
+}
+
+.email-container:hover .social-icon.email {
+  transition: 0s;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
