@@ -8,9 +8,9 @@ const badges = {
     "R": "https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white"
 }
 
-const ProjectCard = ({ photo, title, github, link, description, tech, className }) => {
+const ProjectCard = ({ photo, title, github, link, description, tech }) => {
     return (
-        <div className={"col " + className}>
+        <div className="col">
             <div className="card h-100">
                 <img src={photo} className="card-img-top" />
                 <div className="card-body">

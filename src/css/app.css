@@ -120,3 +120,47 @@ nav {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.study-list {
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+.study-list::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #ccc;
+}
+
+.study-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.study-item::before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  top: -37px;
+  font-size: 100px;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
