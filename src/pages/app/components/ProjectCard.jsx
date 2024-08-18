@@ -1,15 +1,22 @@
 import githubIcon from "/src/assets/images/githubIcon.jpg";
 import linkIcon from "/src/assets/images/linkIcon.jpg";
 
-const ProjectCard = ({ photo, title, github, link, description, tech }) => {
+const badges = {
+    "React": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+    "Unity": "https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white",
+    "Express": "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge",
+    "R": "https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white"
+}
+
+const ProjectCard = ({ photo, title, github, link, description, tech, className }) => {
     return (
-        <div className="col">
+        <div className={"col " + className}>
             <div className="card h-100">
                 <img src={photo} className="card-img-top" />
                 <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center mb-2">
                         <h5 className="card-title m-0">{title}</h5>
-                        <div>
+                        <div className="d-flex">
                             {github && <a href={github} target="_blank" rel="noopener noreferrer">
                                 <img className="social-icon small me-2" src={githubIcon} alt="GitHub Icon" />
                             </a>}
@@ -24,8 +31,10 @@ const ProjectCard = ({ photo, title, github, link, description, tech }) => {
                         {description}
                     </p>
                 </div>
-                <div className="card-footer">
-                    <small className="text-body-secondary">{tech.map(t => t + " ")}</small>
+                <div className="card-footer pb-0">
+                    <small className="text-body-secondary">
+                        {tech.map((t, index) => <img key={index} className="me-2 mb-2 rounded-2" src={badges[t]} />)}
+                    </small>
                 </div>
             </div>
         </div>
