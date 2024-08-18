@@ -1,14 +1,14 @@
 const StudyItem = ({ title, centre, period, description }) => {
     return (
-        <li>
+        <li className="study-item">
             <div className="row d-flex">
-                <div className="col-md-6 d-flex flex-column">
-                    <span className="primary-color fw-bold fs-5">{title}</span>
-                    <span className="fw-bold fs-6">{centre}</span>
-                    <small className="text-secondary">{period}</small>
+                <div className="col-md-5 d-flex flex-column">
+                    <span className="primary-color fw-bold fs-3">{title}</span>
+                    <span className="fw-bold fs-5">{centre}</span>
+                    <span className="text-secondary">{period}</span>
                 </div>
 
-                <div className="col-md-6 mt-2">
+                <div className="col-md-7 mt-2">
                     <p>
                         {description}
                     </p>
