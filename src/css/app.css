@@ -44,7 +44,7 @@ nav {
 
 .logo {
   font-weight: bolder;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: var(--primary-color);
   text-decoration: none;
   transform: scale(1);
@@ -72,6 +72,11 @@ nav {
   height: 40px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.social-icon.small {
+  width: 30px;
+  height: 30px;
 }
 
 .social-icon:hover {
@@ -114,8 +119,4 @@ nav {
   border-radius: 0px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-}
-
-.web-section {
-  padding-top: 60px;
 }
