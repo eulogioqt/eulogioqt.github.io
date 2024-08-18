@@ -15,8 +15,8 @@ const ProjectList = () => {
             </div>
 
             <div className="col d-flex justify-content-center mt-4">
-                {maxElements === 3 &&
-                    <button className="btn btn-dark" onClick={() => setMaxElements(6)}>Ver más</button>}
+                {maxElements < ProjectsData.length &&
+                    <button className="btn btn-dark" onClick={() => setMaxElements(maxElements => maxElements + 3)}>Ver más</button>}
             </div>
         </>
     );
