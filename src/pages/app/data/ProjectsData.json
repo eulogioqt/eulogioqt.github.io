@@ -29,5 +29,15 @@
         "tech": [
             "React"
         ]
+    },
+    {
+        "photo": "/photo.jpg",
+        "title": "Instagram Fake Account Detection",
+        "github": "https://github.com/eulogioqt/snake-game",
+        "link": "https://eulogioqt.github.io/snake-game",
+        "description": "Una recreación del clásico juego de la serpiente para navegador, con un diseño responsivo y con una variedad de configuraciones que permiten al jugador personalizar cada partida a su gusto.",
+        "tech": [
+            "R"
+        ]
     }
 ]
