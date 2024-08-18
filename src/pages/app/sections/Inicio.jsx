@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Section from "../components/Section";
 
+import photo from "/photo.jpg";
+
 import githubIcon from "/src/assets/images/githubIcon.jpg";
 import linkedInIcon from "/src/assets/images/linkedInIcon.jpg";
 import emailIcon from "/src/assets/images/emailIcon.jpg";
@@ -26,10 +28,10 @@ const Inicio = () => {
 
     return (
         <Section id="inicio">
-            <div className="row flex-grow-1 align-items-center mt-md-0 mt-5">
-                <div className="col-md-5 d-flex justify-content-center align-items-center d-md-none mt-md-0 mt-5">
+            <div className="row flex-grow-1 align-items-center mt-4">
+                <div className="col-md-5 d-flex justify-content-center align-items-center d-md-none">
                     <img style={{ width: "70%" }} className="primary-color glow rounded-circle"
-                        src="https://www.github.com/eulogioqt.png" alt="Eulogio Quemada" />
+                        src={photo} alt="Eulogio Quemada" />
                 </div>
 
                 <div className="col-md-7 d-flex flex-column justify-content-center mt-md-0 mt-3">
@@ -63,7 +65,7 @@ const Inicio = () => {
                                 <span>{email}</span>
                             </div>
                             {copied &&
-                                <span class="badge text-bg-secondary position-absolute mt-2" >
+                                <span className="badge text-bg-secondary position-absolute mt-2" >
                                     ¡Email copiado al portapapeles!</span>
                             }
                         </a>
@@ -72,7 +74,7 @@ const Inicio = () => {
 
                 <div className="col-md-5 d-flex justify-content-center align-items-center d-none d-md-flex">
                     <img style={{ width: "100%" }} className="primary-color glow rounded-circle"
-                        src="https://www.github.com/eulogioqt.png" alt="Eulogio Quemada" />
+                        src={photo} alt="Eulogio Quemada" />
                 </div>
             </div>
         </Section>
