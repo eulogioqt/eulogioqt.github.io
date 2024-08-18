@@ -26,8 +26,8 @@ const Inicio = () => {
 
     return (
         <Section id="inicio">
-            <div className="row flex-grow-1 align-items-center mt-md-0 mt-5">
-                <div className="col-md-5 d-flex justify-content-center align-items-center d-md-none mt-md-0 mt-5">
+            <div className="row flex-grow-1 align-items-center mt-5">
+                <div className="col-md-5 d-flex justify-content-center align-items-center d-md-none">
                     <img style={{ width: "70%" }} className="primary-color glow rounded-circle"
                         src="https://www.github.com/eulogioqt.png" alt="Eulogio Quemada" />
                 </div>
@@ -63,7 +63,7 @@ const Inicio = () => {
                                 <span>{email}</span>
                             </div>
                             {copied &&
-                                <span class="badge text-bg-secondary position-absolute mt-2" >
+                                <span className="badge text-bg-secondary position-absolute mt-2" >
                                     ¡Email copiado al portapapeles!</span>
                             }
                         </a>
