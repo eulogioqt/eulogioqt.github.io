@@ -45,7 +45,7 @@ const Header = () => {
                         <a className="nav-link" href="#inicio">Inicio</a>
                         <a className="nav-link" href="#proyectos">Proyectos</a>
                         <a className="nav-link" href="#estudios">Estudios</a>
-                        <a className="nav-link" href="#experiencia">Experiencia</a>
+                        {false && <a className="nav-link" href="#experiencia">Experiencia</a>}
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ const App = () => {
             <Inicio />
             <Proyectos />
             <Estudios />
-            <Experiencia />
+            {false && <Experiencia />}
         </>
     )
 }
