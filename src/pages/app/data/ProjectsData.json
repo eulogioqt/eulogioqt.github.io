@@ -1,6 +1,6 @@
 [
     {
-        "photo": "/src/assets/images/infochange/squaredTrading.jpg",
+        "photo": "/projects/infochange/squaredTrading.jpg",
         "title": "InfoChange",
         "github": "https://github.com/AFND-Industries/InfoChange",
         "link": "https://infochange.me/",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "photo": "https://img.itch.zone/aW1nLzE0NDk1MTExLmdpZg==/347x500/RiAP93.gif",
+        "photo": "/projects/orcast/alfonso.gif",
         "title": "Orcast",
         "github": "",
         "link": "https://yellow-beavers.itch.io/orcast",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "photo": "/src/assets/images/snake-game/randomFoodGame.jpg",
+        "photo": "/projects/snake-game/randomFoodGame.jpg",
         "title": "Snake Game",
         "github": "https://github.com/eulogioqt/snake-game",
         "link": "https://eulogioqt.github.io/snake-game",
