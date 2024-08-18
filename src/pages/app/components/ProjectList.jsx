@@ -4,13 +4,12 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectList = () => {
     const [maxElements, setMaxElements] = useState(3);
-    const getPaddingZero = (index) => index % 3 === 0 ? "ps-0" : (index % 3 === 2 ? "pe-0" : "");
 
     return (
         <>
             <div className="row row-cols-1 row-cols-lg-3 g-4 p-0 m-0">
                 {ProjectsData.map((projectData, index) => (
-                    index < maxElements ? <ProjectCard key={index} className={getPaddingZero(index)} {...projectData} /> : null
+                    index < maxElements ? <ProjectCard key={index} {...projectData} /> : null
                 ))}
             </div>
 
