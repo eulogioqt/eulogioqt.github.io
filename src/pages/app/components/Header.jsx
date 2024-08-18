@@ -44,8 +44,8 @@ const Header = () => {
                     <div className="navbar-nav ms-auto">
                         <a className="nav-link" href="#inicio">Inicio</a>
                         <a className="nav-link" href="#proyectos">Proyectos</a>
+                        <a className="nav-link" href="#estudios">Estudios</a>
                         <a className="nav-link" href="#experiencia">Experiencia</a>
-                        <a className="nav-link" href="#formacion">Formación</a>
                     </div>
                 </div>
             </div>
