@@ -5,7 +5,8 @@ const Proyectos = () => {
     return (
         <Section id="proyectos" className="bg-dark">
             <div className="row w-100">
-                <span className="text-start" style={{ fontSize: "2.5rem", fontWeight: "bold" }}>Proyectos recientes</span>
+                <span className="text-center"
+                    style={{ fontSize: "3rem", fontWeight: "bold" }}>Proyectos</span>
 
                 <ProjectList />
             </div >
