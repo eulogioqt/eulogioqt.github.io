@@ -31,11 +31,11 @@
         ]
     },
     {
-        "photo": "/photo.jpg",
+        "photo": "/projects/instagram-fake-account-detection/banner.jpg",
         "title": "Instagram Fake Account Detection",
-        "github": "https://github.com/eulogioqt/snake-game",
-        "link": "https://eulogioqt.github.io/snake-game",
-        "description": "Una recreación del clásico juego de la serpiente para navegador, con un diseño responsivo y con una variedad de configuraciones que permiten al jugador personalizar cada partida a su gusto.",
+        "github": "https://github.com/eulogioqt/instagram-fake-account-detection",
+        "link": "https://eulogioqt.github.io/instagram-fake-account-detection/",
+        "description": "Libro que recoge todo el proceso de análisis de datos llevado a cabo para crear un detector de cuentas falsas de Instagram, usando técnicas como Formal Concept Analysis, reglas de asociación, regresión...",
         "tech": [
             "R"
         ]

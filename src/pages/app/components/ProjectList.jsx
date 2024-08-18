@@ -1,9 +1,10 @@
+import { useState } from "react";
 import ProjectsData from "../data/ProjectsData.json";
 import ProjectCard from "./ProjectCard";
 
 const ProjectList = () => {
-    const maxElements = 3;
-    const getPaddingZero = (index) => index === 0 ? "ps-0" : (index === maxElements - 1 ? "pe-0" : "");
+    const [maxElements, setMaxElements] = useState(3);
+    const getPaddingZero = (index) => index % 3 === 0 ? "ps-0" : (index % 3 === 2 ? "pe-0" : "");
 
     return (
         <>
@@ -13,9 +14,10 @@ const ProjectList = () => {
                 ))}
             </div>
 
-            {false && <div className="col d-flex justify-content-center mt-4">
-                <button className="btn btn-secondary" >Ver todos los proyectos</button>
-            </div>}
+            <div className="col d-flex justify-content-center mt-4">
+                {maxElements === 3 &&
+                    <button className="btn btn-dark" onClick={() => setMaxElements(6)}>Ver más</button>}
+            </div>
         </>
     );
 }
