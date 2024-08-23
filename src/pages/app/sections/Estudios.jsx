@@ -5,7 +5,7 @@ const Estudios = () => {
     return (
         <Section id="estudios">
             <div className="row w-100">
-                <span className="text-center" style={{ fontSize: "3rem", fontWeight: "bold" }}>Estudios</span>
+                <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Estudios</span>
 
                 <StudyList />
             </div >

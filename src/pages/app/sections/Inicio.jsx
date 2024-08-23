@@ -35,11 +35,11 @@ const Inicio = () => {
                 </div>
 
                 <div className="col-md-7 d-flex flex-column justify-content-center mt-md-0 mt-3">
-                    <p style={{ fontSize: "2rem", fontWeight: "bold" }}>
+                    <p className='fw-bold fs-1'>
                         ¡Hola, soy&nbsp;<span className="primary-color glow">Eulogio Quemada</span>!
                     </p>
 
-                    <p style={{ fontSize: "1.25rem", marginBottom: "8px" }}>
+                    <p className="fs-5 mb-2">
                         Soy estudiante de <span className="primary-color">Ingeniería del Software</span> en
                         la <span className="primary-color">Universidad de Málaga</span>.
                     </p>
