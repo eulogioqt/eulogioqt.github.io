@@ -1,6 +1,6 @@
 const ExtraItem = ({ photo, title, date, description, url }) => {
     return (
-        <div className="col mt-0">
+        <div className="col">
             <a href={url} target="_blank" className="card card-click h-100">
                 <img
                     src={photo}

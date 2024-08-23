@@ -28,7 +28,7 @@ const Experiencia = () => {
                 </p>
             </div>
 
-            <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Extra</span>
+            <span className="text-center mt-5" style={{ fontSize: "3rem", fontWeight: "bold" }}>Extra</span>
 
             <ExtraList />
         </Section>
