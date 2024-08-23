@@ -161,6 +161,18 @@ nav {
   transition: transform 0.3s ease;
 }
 
-.card:hover .card-img-top {
+.card-click {
+  transform: scale(1);
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s
+}
+
+.card-click:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top.hover {
   transform: scale(1.1);
 }

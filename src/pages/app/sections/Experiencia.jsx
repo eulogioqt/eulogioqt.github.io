@@ -1,3 +1,4 @@
+import ExtraList from "../components/ExtraList";
 import Section from "../components/Section";
 
 const Experiencia = () => {
@@ -5,7 +6,7 @@ const Experiencia = () => {
         <Section id="experiencia">
             <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Experiencia</span>
 
-            <div className="col-md-9 d-flex flex-column">
+            <div className="col-md-9 d-flex flex-column border rounded-3 p-3">
                 <div className="d-sm-flex d-block justify-content-between">
                     <div className="d-flex align-items-center mb-3">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyU8IMyUOX3AoWlwPpE2DYGJUONtxI_CgOfA&s"
@@ -27,7 +28,9 @@ const Experiencia = () => {
                 </p>
             </div>
 
+            <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Extra</span>
 
+            <ExtraList />
         </Section>
     );
 }
