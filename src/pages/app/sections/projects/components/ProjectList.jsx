@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import ProjectsData from "../../../data/ProjectsData.json";
-import ProjectCard from "./ProjectCard";
+import ProjectItem from "./ProjectItem";
 
 const ProjectList = () => {
     const [maxElements, setMaxElements] = useState(3);
@@ -10,7 +10,7 @@ const ProjectList = () => {
         <>
             <div className="row row-cols-1 row-cols-lg-3 g-4 p-0 m-0">
                 {ProjectsData.map((projectData, index) => (
-                    index < maxElements ? <ProjectCard key={index} {...projectData} /> : null
+                    index < maxElements ? <ProjectItem key={index} {...projectData} /> : null
                 ))}
             </div>
 

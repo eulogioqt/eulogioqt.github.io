@@ -1,0 +1,9 @@
+[
+    {
+        "logo": "/experience/mapir/logo.jpg",
+        "title": "MAPIR",
+        "subtitle": "Desarrollador de Robots",
+        "period": "Abril 2024 - Actualidad",
+        "description": "Programación de robots con el software ROS2 y Python, uso de inteligencia artificial y de técnicas de detección y reconocimiento facial, speech-to-text y text-to-speech entre otras para lograr una interacción humano robot lo más natural posible."
+    }
+]

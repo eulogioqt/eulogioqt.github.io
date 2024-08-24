@@ -8,7 +8,7 @@ const badges = {
     "R": "https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white"
 }
 
-const ProjectCard = ({ photo, title, github, link, description, tech }) => {
+const ProjectItem = ({ photo, title, github, link, description, tech }) => {
     return (
         <div className="col">
             <div className="card h-100">
@@ -41,4 +41,4 @@ const ProjectCard = ({ photo, title, github, link, description, tech }) => {
     );
 }
 
-export default ProjectCard;
+export default ProjectItem;

@@ -1,17 +1,24 @@
+import linkIcon from "/src/assets/images/linkIcon.jpg";
+
 const ExtraItem = ({ photo, title, date, description, url }) => {
     return (
         <div className="col">
-            <a href={url} target="_blank" className="card card-click h-100">
+            <div href={url} target="_blank" className="card h-100">
                 <img
                     src={photo}
-                    className="card-img-top"
+                    className="card-img-top hover"
                 />
                 <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
+                    <div className="d-flex justify-content-between align-items-center">
+                        <h5 className="card-title">{title}</h5>
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                            <img className="social-icon small" src={linkIcon} alt="Link Icon" />
+                        </a>
+                    </div>
                     <p className="text-muted">{date}</p>
                     <p className="card-text">{description}</p>
                 </div>
-            </a>
+            </div>
         </div>
     );
 }
