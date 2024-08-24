@@ -42,10 +42,10 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
-                        <a className="nav-link" href="#inicio">Inicio</a>
-                        <a className="nav-link" href="#proyectos">Proyectos</a>
-                        <a className="nav-link" href="#estudios">Estudios</a>
-                        <a className="nav-link" href="#experiencia">Experiencia</a>
+                        <a className="nav-link" href="#welcome">Inicio</a>
+                        <a className="nav-link" href="#projects">Proyectos</a>
+                        <a className="nav-link" href="#studies">Estudios</a>
+                        <a className="nav-link" href="#experience">Experiencia</a>
                     </div>
                 </div>
             </div>

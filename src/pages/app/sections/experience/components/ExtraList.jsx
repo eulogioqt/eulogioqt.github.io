@@ -1,6 +1,6 @@
 import React from "react";
 
-import ExtrasData from "../data/ExtrasData.json";
+import ExtrasData from "../../../data/ExtrasData.json";
 import ExtraItem from "./ExtraItem";
 
 const ExtraList = () => {

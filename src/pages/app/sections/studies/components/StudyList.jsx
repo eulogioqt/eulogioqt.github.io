@@ -1,4 +1,4 @@
-import StudiesData from "../data/StudiesData.json";
+import StudiesData from "../../../data/StudiesData.json";
 import StudyItem from "./StudyItem";
 
 const StudyList = () => {

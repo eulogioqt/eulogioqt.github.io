@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Section from "../components/Section";
+import Section from "../../components/Section";
 
 import photo from "/photo.jpg";
 
@@ -9,7 +9,7 @@ import emailIcon from "/src/assets/images/emailIcon.jpg";
 
 const email = "euquemada@gmail.com";
 
-const Inicio = () => {
+const Welcome = () => {
     const [copied, setCopied] = useState(false);
 
     const handleCopyToClipboard = (e) => {
@@ -27,7 +27,7 @@ const Inicio = () => {
     };
 
     return (
-        <Section id="inicio">
+        <Section id="welcome">
             <div className="row flex-grow-1 align-items-center mt-4">
                 <div className="col-md-5 d-flex justify-content-center align-items-center d-md-none">
                     <img style={{ width: "70%" }} className="primary-color glow rounded-circle"
@@ -81,4 +81,4 @@ const Inicio = () => {
     );
 }
 
-export default Inicio;
+export default Welcome;

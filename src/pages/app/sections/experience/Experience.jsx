@@ -1,9 +1,9 @@
-import ExtraList from "../components/ExtraList";
-import Section from "../components/Section";
+import Section from "../../components/Section";
+import ExtraList from "./components/ExtraList";
 
-const Experiencia = () => {
+const Experience = () => {
     return (
-        <Section id="experiencia">
+        <Section id="experience">
             <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Experiencia</span>
 
             <div className="col-md-9 d-flex flex-column border rounded-3 p-3">
@@ -35,4 +35,4 @@ const Experiencia = () => {
     );
 }
 
-export default Experiencia;
+export default Experience;

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import ProjectsData from "../data/ProjectsData.json";
+
+import ProjectsData from "../../../data/ProjectsData.json";
 import ProjectCard from "./ProjectCard";
 
 const ProjectList = () => {

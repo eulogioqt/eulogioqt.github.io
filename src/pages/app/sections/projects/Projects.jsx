@@ -1,9 +1,9 @@
-import ProjectList from "../components/ProjectList";
-import Section from "../components/Section";
+import Section from "../../components/Section";
+import ProjectList from "./components/ProjectList";
 
-const Proyectos = () => {
+const Projects = () => {
     return (
-        <Section id="proyectos">
+        <Section id="projects">
             <div className="row w-100">
                 <span className="text-center mb-3" style={{ fontSize: "3rem", fontWeight: "bold" }}>Proyectos</span>
 
@@ -13,4 +13,4 @@ const Proyectos = () => {
     );
 }
 
-export default Proyectos;
+export default Projects;
