@@ -2,10 +2,10 @@ import React from "react";
 
 import Header from "./components/Header";
 
-import Inicio from "./sections/Inicio";
-import Proyectos from "./sections/Proyectos";
-import Experiencia from "./sections/Experiencia";
-import Estudios from "./sections/Estudios";
+import Welcome from "./sections/welcome/Welcome";
+import Projects from "./sections/projects/Projects";
+import Studies from "./sections/studies/Studies";
+import Experience from "./sections/experience/Experience";
 
 import '../../css/app.css';
 
@@ -14,10 +14,10 @@ const App = () => {
         <>
             <Header />
 
-            <Inicio />
-            <Proyectos />
-            <Estudios />
-            <Experiencia />
+            <Welcome />
+            <Projects />
+            <Studies />
+            <Experience />
         </>
     )
 }
