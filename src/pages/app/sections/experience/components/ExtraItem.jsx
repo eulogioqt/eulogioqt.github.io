@@ -9,7 +9,7 @@ const ExtraItem = ({ photo, title, date, description, url }) => {
                     className="card-img-top hover"
                 />
                 <div className="card-body">
-                    <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-top">
                         <h5 className="card-title">{title}</h5>
                         <a href={url} target="_blank" rel="noopener noreferrer">
                             <img className="social-icon small" src={linkIcon} alt="Link Icon" />
