@@ -14,7 +14,7 @@ const ProjectItem = ({ photo, title, github, link, description, tech }) => {
             <div className="card h-100">
                 <img src={photo} className="card-img-top hover" />
                 <div className="card-body">
-                    <div className="d-flex justify-content-between align-items-center mb-2">
+                    <div className="d-flex justify-content-between align-items-top mb-2">
                         <h5 className="card-title m-0">{title}</h5>
                         <div className="d-flex">
                             {github && <a href={github} target="_blank" rel="noopener noreferrer">
