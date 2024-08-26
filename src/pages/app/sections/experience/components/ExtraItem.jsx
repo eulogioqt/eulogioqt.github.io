@@ -1,8 +1,10 @@
 import linkIcon from "/src/assets/images/linkIcon.jpg";
 
-const ExtraItem = ({ photo, title, date, description, url }) => {
+const ExtraItem = ({ index, photo, title, date, description, url }) => {
+    const paddingX = index === 0 ? "ps-0 pe-lg-3 pe-0" : "pe-0 ps-lg-3 ps-0";
+
     return (
-        <div className="col">
+        <div className={"col " + paddingX}>
             <div href={url} target="_blank" className="card h-100">
                 <img
                     src={photo}

@@ -4,9 +4,10 @@
         "title": "InfoChange",
         "github": "https://github.com/AFND-Industries/InfoChange",
         "link": "https://infochange.me/",
-        "description": "Simulación de un exchange de criptomonedas con datos en tiempo real. Los usuarios pueden comprar y vender cualquier moneda, llevar un seguimiento de sus movimientos, realizar transferencias a otros usuarios...",
+        "description": "Simulación de un exchange de criptomonedas con datos en tiempo real. Los usuarios pueden comprar y vender diversas monedas, llevar un seguimiento de sus movimientos, realizar transferencias a otros usuarios...",
         "tech": [
             "React",
+            "Bootstrap",
             "Express"
         ]
     },
@@ -15,9 +16,12 @@
         "title": "Orcast",
         "github": "",
         "link": "https://yellow-beavers.itch.io/orcast",
-        "description": "Videojuego 2D pixel art RPG. Cuenta con múltiples funciones, desde ranking de usuarios, portabilidad de cuentas, panel de métricas de juego... Los jugadores podrán disfrutar de una historia, batallas, jefes y puzles únicos.",
+        "description": "Videojuego 2D estilo pixel art RPG. Cuenta con rankings, portabilidad de cuentas, métricas de juego... Los jugadores podrán sumergirse en una historia envolvente en la que pondrán participar en batallas, enfrentarse a jefes y resolver puzles únicos.",
         "tech": [
-            "Unity"
+            "Unity",
+            "C#",
+            "PHP",
+            "MySQL"
         ]
     },
     {
@@ -25,17 +29,18 @@
         "title": "Snake Game",
         "github": "https://github.com/eulogioqt/snake-game",
         "link": "https://eulogioqt.github.io/snake-game",
-        "description": "Una recreación del clásico juego de la serpiente para navegador, con un diseño responsivo y con una variedad de configuraciones que permiten al jugador personalizar cada partida a su gusto.",
+        "description": "Una recreación del juego de la serpiente para navegador, con un diseño responsivo y con una amplia variedad de configuraciones que permiten al jugador personalizar cada partida a su gusto.",
         "tech": [
-            "React"
+            "React",
+            "Bootstrap"
         ]
     },
     {
         "photo": "/projects/instagram-fake-account-detection/banner.jpg",
-        "title": "Instagram Fake Account Detection",
+        "title": "Instagram Fake Account Analysis",
         "github": "https://github.com/eulogioqt/instagram-fake-account-detection",
         "link": "https://eulogioqt.github.io/instagram-fake-account-detection/",
-        "description": "Libro que recoge todo el proceso de análisis de datos llevado a cabo para crear un detector de cuentas falsas de Instagram, usando técnicas como Formal Concept Analysis, reglas de asociación, regresión...",
+        "description": "Libro que documenta el proceso integral de análisis de datos empleado para desarrollar un sistema de detección de cuentas falsas en Instagram. El texto abarca el uso de técnicas avanzadas como Formal Concept Analysis, association rules, y regression, entre otras.",
         "tech": [
             "R"
         ]
