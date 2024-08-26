@@ -8,9 +8,11 @@ const badges = {
     "R": "https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white"
 }
 
-const ProjectItem = ({ photo, title, github, link, description, tech }) => {
+const ProjectItem = ({ index, photo, title, github, link, description, tech }) => {
+    const paddingX = (index % 3) === 0 ? "ps-0 pe-lg-3 pe-0" : (index % 3 === 2 ? "pe-0 ps-lg-3 ps-0" : "px-lg-2 px-0");
+
     return (
-        <div className="col">
+        <div className={"col " + paddingX}>
             <div className="card h-100">
                 <img src={photo} className="card-img-top hover" />
                 <div className="card-body">

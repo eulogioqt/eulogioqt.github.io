@@ -10,7 +10,7 @@ const ProjectList = () => {
         <>
             <div className="row row-cols-1 row-cols-lg-3 g-4 p-0 m-0">
                 {ProjectsData.map((projectData, index) => (
-                    index < maxElements ? <ProjectItem key={index} {...projectData} /> : null
+                    index < maxElements ? <ProjectItem key={index} index={index} {...projectData} /> : null
                 ))}
             </div>
 
