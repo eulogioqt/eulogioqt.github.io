@@ -8,7 +8,8 @@
         "tech": [
             "React",
             "Bootstrap",
-            "Express"
+            "Express",
+            "SQLite"
         ]
     },
     {
@@ -22,6 +23,17 @@
             "C#",
             "PHP",
             "MySQL"
+        ]
+    },
+    {
+        "photo": "/projects/qt-typing/banner.jpg",
+        "title": "QT Typing",
+        "github": "https://github.com/eulogioqt/qt-typing",
+        "link": "https://eulogioqt.github.io/qt-typing",
+        "description": "Prueba tu velocidad escribiendo con un test de mecanografía de tan solo un minuto. Además, podrás medir otras métricas como tu precisión escribiendo y el número exacto de palabras correctas e incorrectas que has escrito.",
+        "tech": [
+            "React",
+            "Bootstrap"
         ]
     },
     {
