@@ -19,7 +19,7 @@ const ProjectItem = ({ index, photo, title, github, link, description, tech }) =
     return (
         <div className={"col " + paddingX}>
             <div className="card h-100">
-                <img src={photo} className="card-img-top hover" />
+                <img src={photo} style={{ aspectRatio: "16/9" }} className="card-img-top hover" />
                 <div className="card-body">
                     <div className="d-flex justify-content-between align-items-top mb-2">
                         <h5 className="card-title m-0">{title}</h5>
