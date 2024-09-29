@@ -7,7 +7,7 @@ import Projects from "./sections/projects/Projects";
 import Studies from "./sections/studies/Studies";
 import Experience from "./sections/experience/Experience";
 
-import '../../css/app.css';
+import './css/app.css';
 
 const App = () => {
     return (
