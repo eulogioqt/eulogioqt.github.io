@@ -1,7 +1,7 @@
 import linkIcon from "/src/assets/images/linkIcon.jpg";
 
 const ExtraItem = ({ index, photo, title, date, description, url }) => {
-    const paddingX = index === 0 ? "ps-0 pe-lg-3 pe-0" : "pe-0 ps-lg-3 ps-0";
+    const paddingX = (index % 3) === 0 ? "ps-0 pe-lg-3 pe-0" : (index % 3 === 2 ? "pe-0 ps-lg-3 ps-0" : "px-lg-2 px-0");
 
     return (
         <div className={"col " + paddingX}>
