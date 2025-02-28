@@ -9,7 +9,7 @@ const Experience = () => {
 
             <ExperienceList />
 
-            <span className="text-center" style={{ fontSize: "3rem", fontWeight: "bold" }}>Extra</span>
+            <span className="text-center" style={{ fontSize: "3rem", fontWeight: "bold" }}>Otros</span>
 
             <ExtraList />
         </Section>
