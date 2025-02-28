@@ -3,6 +3,7 @@ import Section from "../../components/Section";
 
 import photo from "/photo.jpg";
 
+import cvIcon from "/src/assets/images/cvIcon.jpg";
 import githubIcon from "/src/assets/images/githubIcon.jpg";
 import linkedInIcon from "/src/assets/images/linkedInIcon.jpg";
 import emailIcon from "/src/assets/images/emailIcon.jpg";
@@ -51,6 +52,10 @@ const Welcome = () => {
                     </p>
 
                     <div className="d-flex justify-content-start align-items-center">
+                        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                            <img className="social-icon me-2" src={cvIcon} alt="CV Icon" />
+                        </a>
+
                         <a href="https://www.github.com/eulogioqt" target="_blank" rel="noopener noreferrer">
                             <img className="social-icon me-2" src={githubIcon} alt="GitHub Icon" />
                         </a>
